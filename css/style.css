@@ -5,6 +5,7 @@
 }
 body{
     background-color: black;
+
 }
 .grads{
     display: block;
@@ -93,10 +94,13 @@ body{
 
 }
 
-@media screen and (max-width:412px) {
+@media screen and (max-height:780px) and (min-width:360px){
+  body{
+   
+  }
   .grads{
     display: block;
-    width: 370px;
+     min-width:370px;
     height: 570px;
     margin:100px auto;
     border-radius: 15px;
